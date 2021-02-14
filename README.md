@@ -6,6 +6,6 @@
 
 usage: python3 check_url_survival.py your_urls.txt
 
-[!https://github.com/sakura404x/MyScript/blob/main/photos/Xnip2021-02-14_11-36-39.jpg]
+![avatar](https://github.com/sakura404x/MyScript/blob/main/photos/Xnip2021-02-14_11-36-39.jpg)
 
 
