@@ -28,6 +28,7 @@ def check(urls):
 	for url in urls:
 		if "://" not in url:
 			url = "http://" + url
+			url2 = "https://" + url
 		else:
 			url = url
 		try:
@@ -66,9 +67,9 @@ def check(urls):
 			pass
 			error_type = "错误类型：",e.__class__.__name__
 			error_details = "错误细节：",e
-			print(url)
-			print("错误类型：",e.__class__.__name__)
-			print("错误细节：",e)
+			# print(url)
+			# print("错误类型：",e.__class__.__name__)
+			# print("错误细节：",e)
 			file.write(str(url) + '\n' + str(error_type) + '\n' + str(error_details) + "\n\n")
 			# traceback.print_exc()
 		
